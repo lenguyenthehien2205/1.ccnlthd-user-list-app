@@ -1,0 +1,17 @@
+.user {
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 8px;
+}
+.username{
+    font-size: 20px;
+    font-weight: bold;
+}
+.age{
+    font-size: 15px;
+    font-weight: bold;
+}
+.nationality{
+    font-size: 15px;
+    font-weight: bold;
+}

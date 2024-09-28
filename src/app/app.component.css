@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.user-list {
+    background-color: bisque;
+    border-radius: 20px;
+    width: 400px;
+    height: 600px;
+    margin: 50px auto 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+    overflow-y: scroll;
+}
+.user-list::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 8px;
+  }
+  
+  .user-list::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+  
+  .user-list:hover::-webkit-scrollbar-thumb {
+    background: #bcc0c4;
+  }
+  
+h1 {
+    text-align: center;
+}
