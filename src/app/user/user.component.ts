@@ -1,5 +1,4 @@
 import { Component, input } from '@angular/core';
-
 @Component({
   selector: 'app-user',
   standalone: true,
@@ -8,7 +7,10 @@ import { Component, input } from '@angular/core';
   styleUrl: './user.component.css'
 })
 export class UserComponent {
-  username = input();
-  age = input();
-  nationality = input();
+  id = input();
+  name = input();
+  email = input();
+  address = input();
+  phone = input();
+  company = input();
 }
