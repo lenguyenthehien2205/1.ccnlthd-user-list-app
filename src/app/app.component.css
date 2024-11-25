@@ -21,19 +21,19 @@
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.15);
 }
 .user-list::-webkit-scrollbar {
-    width: 8px;
-    border-radius: 8px;
-  }
-  
-  .user-list::-webkit-scrollbar-thumb {
-    background: transparent;
-    border-radius: 10px;
-    transition: 0.3s;
-  }
-  
-  .user-list:hover::-webkit-scrollbar-thumb {
-    background: #bcc0c4;
-  }
+  width: 8px;
+  border-radius: 8px;
+}
+
+.user-list::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.user-list:hover::-webkit-scrollbar-thumb {
+  background: #bcc0c4;
+}
   
 h1 {
     text-align: center;
